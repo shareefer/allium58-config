@@ -20,6 +20,9 @@
 ---
 include:
   - board: nice_nano_v2
-    shield: lily58_left
+    shield: allium58_left
+    snippet: studio-rpc-usb-uart
+    cmake-args: -DCONFIG_ZMK_STUDIO=y
+    artifact-name: allium58_left_with_studio
   - board: nice_nano_v2
-    shield: lily58_right
+    shield: allium58_right
